@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="body">
+    <div id="header">
+        <header id="title-header">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Please fill this survey out</p>
+        </header>
+    </div>
+    <div id="body">
+        <form id="survey-form">
+            <section id="user-info">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <label id="number-label" for="age">Age (optional)</label>
+                <input type="number" name="age" id="number" min="13" max="99" placeholder="Age">
+            </section>
+            <section id="opinion">
+                <p>What describes your current role?</p>
+                <select name="role" id="dropdown">
+                    <option value="select-current-role" disabled selected>Select Current Role</option>
+                    <option value="student">Student</option>
+                    <option value="full-time-job">Full Time Job</option>
+                    <option value="full-time-learner">Full Time Learner</option>
+                    <option value="prefer-not-to-say">Prefer Not To Say</option>
+                    <option value="other">Other</option>
+                </select>
+            </section>
+        </form>
+    </div>
+</body>
